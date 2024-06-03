@@ -269,3 +269,102 @@ Consider defining a bean of type 'org.springframework.security.oauth2.client.reg
 2024-06-03 14:21:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-06-03 14:21:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-06-03 14:21:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-03 14:23:06 [main] INFO  c.example.OAuth2.OAuth2Application - Starting OAuth2Application using Java 22.0.1 with PID 29980 (C:\Users\maksim.pouzakov\Desktop\OAuth2\OAuth2\target\classes started by maksim.pouzakov in C:\Users\maksim.pouzakov\Desktop\OAuth2)
+2024-06-03 14:23:06 [main] INFO  c.example.OAuth2.OAuth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:23:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-03 14:23:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:23:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-03 14:23:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03 14:23:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:23:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1407 ms
+2024-06-03 14:23:08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7d9b41, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25be445f, org.springframework.security.web.context.SecurityContextHolderFilter@68b734a8, org.springframework.security.web.header.HeaderWriterFilter@3728a578, org.springframework.web.filter.CorsFilter@5d1b1c2a, org.springframework.security.web.csrf.CsrfFilter@3b2e5c0d, org.springframework.security.web.authentication.logout.LogoutFilter@5e230fc6, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@fd09e43, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@609319c3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7bc58891, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6397248c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4215e133, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d88f893, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25f61c2c, org.springframework.security.web.access.ExceptionTranslationFilter@43ac0a68, org.springframework.security.web.access.intercept.AuthorizationFilter@664212ab]
+2024-06-03 14:23:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:23:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-03 14:23:08 [main] INFO  c.example.OAuth2.OAuth2Application - Started OAuth2Application in 2.82 seconds (process running for 3.481)
+2024-06-03 14:23:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 14:23:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-03 14:23:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-03 14:23:49 [http-nio-8080-exec-3] INFO  com.example.OAuth2.MyComponent - Division av 6 / 3 = 2
+2024-06-03 14:25:46 [main] INFO  c.example.OAuth2.OAuth2Application - Starting OAuth2Application using Java 22.0.1 with PID 28308 (C:\Users\maksim.pouzakov\Desktop\OAuth2\OAuth2\target\classes started by maksim.pouzakov in C:\Users\maksim.pouzakov\Desktop\OAuth2)
+2024-06-03 14:25:46 [main] INFO  c.example.OAuth2.OAuth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:25:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-03 14:25:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:25:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-03 14:25:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03 14:25:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:25:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1774 ms
+2024-06-03 14:25:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25f61c2c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72bd2871, org.springframework.security.web.context.SecurityContextHolderFilter@d88f893, org.springframework.security.web.header.HeaderWriterFilter@1a464fa3, org.springframework.web.filter.CorsFilter@77429040, org.springframework.security.web.csrf.CsrfFilter@429aeac1, org.springframework.security.web.authentication.logout.LogoutFilter@511f5b1d, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@6bbab114, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5d1b1c2a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@481558ce, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d2b6960, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48eaf42f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2091833, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38291795, org.springframework.security.web.access.ExceptionTranslationFilter@1de0641b, org.springframework.security.web.access.intercept.AuthorizationFilter@a6e4897]
+2024-06-03 14:25:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:25:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-03 14:25:48 [main] INFO  c.example.OAuth2.OAuth2Application - Started OAuth2Application in 3.588 seconds (process running for 4.6)
+2024-06-03 14:25:52 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 14:25:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-03 14:25:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-03 14:26:17 [main] INFO  c.example.OAuth2.OAuth2Application - Starting OAuth2Application using Java 22.0.1 with PID 35080 (C:\Users\maksim.pouzakov\Desktop\OAuth2\OAuth2\target\classes started by maksim.pouzakov in C:\Users\maksim.pouzakov\Desktop\OAuth2)
+2024-06-03 14:26:17 [main] INFO  c.example.OAuth2.OAuth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:26:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-03 14:26:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:26:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-03 14:26:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03 14:26:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:26:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1313 ms
+2024-06-03 14:26:19 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getSecurityFilterChain' defined in class path resource [com/example/OAuth2/MyConfiguration.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'getSecurityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+2024-06-03 14:26:19 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-06-03 14:26:19 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-03 14:26:19 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Method getSecurityFilterChain in com.example.OAuth2.MyConfiguration required a bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' in your configuration.
+
+2024-06-03 14:26:31 [main] INFO  c.example.OAuth2.OAuth2Application - Starting OAuth2Application using Java 22.0.1 with PID 23700 (C:\Users\maksim.pouzakov\Desktop\OAuth2\OAuth2\target\classes started by maksim.pouzakov in C:\Users\maksim.pouzakov\Desktop\OAuth2)
+2024-06-03 14:26:31 [main] INFO  c.example.OAuth2.OAuth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:26:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-03 14:26:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:26:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-03 14:26:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03 14:26:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:26:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1885 ms
+2024-06-03 14:26:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ebe2e47, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@609319c3, org.springframework.security.web.context.SecurityContextHolderFilter@3728a578, org.springframework.security.web.header.HeaderWriterFilter@4099209b, org.springframework.web.filter.CorsFilter@6bbab114, org.springframework.security.web.csrf.CsrfFilter@54336976, org.springframework.security.web.authentication.logout.LogoutFilter@420cd102, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@51f95f0d, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@fd09e43, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@48eaf42f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2a7d9b41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1de0641b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a464fa3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25be445f, org.springframework.security.web.access.ExceptionTranslationFilter@2ffe243f, org.springframework.security.web.access.intercept.AuthorizationFilter@22dc59b2]
+2024-06-03 14:26:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:26:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-03 14:26:34 [main] INFO  c.example.OAuth2.OAuth2Application - Started OAuth2Application in 3.773 seconds (process running for 4.612)
+2024-06-03 14:27:56 [main] INFO  c.example.OAuth2.OAuth2Application - Starting OAuth2Application using Java 22.0.1 with PID 26804 (C:\Users\maksim.pouzakov\Desktop\OAuth2\OAuth2\target\classes started by maksim.pouzakov in C:\Users\maksim.pouzakov\Desktop\OAuth2)
+2024-06-03 14:27:56 [main] INFO  c.example.OAuth2.OAuth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:27:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-03 14:27:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:27:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-03 14:27:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03 14:27:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:27:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+2024-06-03 14:27:58 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getSecurityFilterChain' defined in class path resource [com/example/OAuth2/MyConfiguration.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'getSecurityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+2024-06-03 14:27:58 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-06-03 14:27:58 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-03 14:27:58 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Method getSecurityFilterChain in com.example.OAuth2.MyConfiguration required a bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' in your configuration.
+
