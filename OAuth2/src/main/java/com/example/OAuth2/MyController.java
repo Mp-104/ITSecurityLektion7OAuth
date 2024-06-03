@@ -12,4 +12,9 @@ public class MyController {
         return "logout";
     }
 
+    @GetMapping("/loggedin")
+    public String loggedIn () {
+        return "loggedIn";
+    }
+
 }
